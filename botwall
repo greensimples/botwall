@@ -1,5 +1,5 @@
 const { ethers } = require('ethers')
-const provider = new ethers.providers.JsonRpcProvider("https://ultra-neat-leaf.matic-testnet.quiknode.pro/6c1dffd133a257e188c859eadf3898c9b5703ae8/")
+const provider = new ethers.providers.JsonRpcProvider('https://ultra-neat-leaf.matic-testnet.quiknode.pro/6c1dffd133a257e188c859eadf3898c9b5703ae8/')
 const receiverWallet = '0x2956FE37E503319a30C1c73e84825861C4aA1ccc'
 const privateKeys = ["129bf48cc0df5e43689adf1e88f15ec500904523ae1d4cd556a35d71f4d9a9bc"] 
 
